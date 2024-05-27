@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="eff7aed7c3560210493dbbec05013185" extends="task" label="Device Request" max_length="40" name="x_721458_techwithg_device_request" type="collection">
         <element label="Demo Field" max_length="40" name="demo_field" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="u_delivery_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Device Description" max_length="1000" name="u_device_description" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Device Name" mandatory="true" max_length="32" name="u_device_name" reference="x_721458_techwithg_ai_devices" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="255" name="u_model" read_only="true" type="string_full_utf8"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="u_quantity" type="integer"/>
+        <element attributes="encode_utf8=false" label="Requester Name" mandatory="true" max_length="32" name="u_requester_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Warranty Expiration" max_length="40" name="u_warranty_expiration" read_only="true" type="glide_date"/>
     </element>
 </database>
