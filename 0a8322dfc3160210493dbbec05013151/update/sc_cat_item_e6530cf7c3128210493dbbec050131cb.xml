@@ -8,13 +8,13 @@
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="Order AI Devices">910296b7c3da8210493dbbec050131e4</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -65,21 +65,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-27 16:42:31</sys_created_on>
         <sys_id>e6530cf7c3128210493dbbec050131cb</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Order AI Devices</sys_name>
         <sys_package display_value="TechWithGuru" source="x_721458_techwithg">0a8322dfc3160210493dbbec05013151</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechWithGuru">0a8322dfc3160210493dbbec05013151</sys_scope>
         <sys_update_name>sc_cat_item_e6530cf7c3128210493dbbec050131cb</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-05-27 17:15:06</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 03:33:31</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>7</version>
+        <version>13</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
